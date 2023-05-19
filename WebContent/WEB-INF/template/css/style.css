@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+	background: #FCFCD9;
+}
+
+.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 20%;
+	height: 100%;
+	background: #E4CBED;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-right: 1px solid #333;
+}
+
+.navbar a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-size: 0.9en;
+	font-weight: bold;
+	
+	color: #222c6a;
+	text-transform: uppercase;
+}
+
+.main a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-size: 0.9en;
+	font-weight: bold;
+	
+	color: #222c6a;
+	text-transform: uppercase;
+}
+
+.appname{
+	position: fixed;
+	top: 0;
+	left: 25%;
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #FCFCD9;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+.main{
+	padding: 10%;
+	padding-left: 25%;
+	font-size: 22px;
+}
+
+.errorMessage{
+	color: red;
+}
+
+.successMessage{
+	color: green;
+}
